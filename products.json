@@ -1,0 +1,23 @@
+[
+    {
+        "id":"1",
+        "name":"Lounge Chair",
+        "price": "$1200",
+        "image" : "https://i.ibb.co/8403ZFZ/pexels-hormel-2762247-removebg-preview-2-1.png"
+    
+    },
+    {   
+        "id":"2",
+        "name":"Lounge Chair",
+        "price": "$1300",
+        "image" : "https://i.ibb.co/WBdnRqb/eugene-chystiakov-3ne-Swyntb-Q8-unsplash-1-removebg-preview-2-1.png"
+    
+    },
+    {
+        "id":"3",
+        "name":"Lounge Chair",
+        "price": "$1200",
+        "image" : "https://i.ibb.co/R2fbCvj/kari-shea-It-Mgg-D0-Egu-Y-unsplash-removebg-preview-2-1.png"
+    
+    }
+]

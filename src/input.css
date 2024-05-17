@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* background image */
+
+.background-image {
+    background-image: url("./img/pexels-photo-1571460.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+}
+
+.shoppingCart {
+    color:black;
+}
+
+.removeModal {
+    color:black;
+}
+.carousel-cell {
+                    width: 150px;
+                    height: 150px;
+        
+                    margin-right: 24px;
+                    counter-increment: carousel-cell;
+                }
+        
+                .carousel-cell:before {
+                    display: block;
+                    width: 20%;
+                }
+        
+                .flickity-slider {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    left: -260px !important;
+                }
+        
+                .flickity-button {
+                    position: absolute !important;
+                    inset: 0 !important;
+                    top: 50% !important;
+                    left: 80% !important;
+                    background: white;
+                    border: 0px;
+                    color: #27272a;
+                }
+        
+                .flickity-prev-next-button:hover {
+                    background-color: #27272a;
+                    color: white;
+                }
+        
+            .flickity-prev-next-button.previous {
+                visibility: hidden;
+            }
+    
+            .flickity-prev-next-button.next {
+                margin-left: 50px;
+                width: 48px;
+                height: 48px;
+                visibility: hidden;
+            }
+    
+            .flickity-enabled.is-draggable .flickity-viewport {
+                cursor: none;
+                cursor: default;
+            }
+    
+            .flickity-prev-next-button .flickity-button-icon {
+                margin-left: 2px;
+                margin-top: 2px;
+                width: 24px;
+                height: 24px;
+            }
+
+
+  .containerElement {
+    background-color:  rgb(249 ,250 ,251 );
+
+    padding:2rem;
+  }          
+
+  .img {
+    
+  }
